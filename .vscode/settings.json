@@ -1,4 +1,45 @@
 {
-    "python.formatting.provider": "black",
+  "workbench.colorTheme": "One Dark Pro",
+  "workbench.iconTheme": "eq-material-theme-icons",
+  "editor.accessibilitySupport": "off",
+  "editor.wordWrap": "on",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.validate": ["javascript", "javascriptreact", "jsx"],
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[python]": {
     "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "python.formatting.provider": "black",
+    "editor.defaultFormatter": "ms-python.autopep8"
+  },
+  "git.autofetch": true,
+  //"emulator.emulatorPathWindows": "C:\Users\natha\.android\avd",
+  "git.confirmSync": false,
+  "editor.inlineSuggest.enabled": true,
+  "files.autoSave": "afterDelay",
+  "eslint.options": {
+    "configFile": ".eslintrc.js"
+  },
+  "prettier.singleQuote": true,
+  "eslint.codeActionsOnSave.rules": null,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": true,
+    "scminput": false
+  },
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
 }
